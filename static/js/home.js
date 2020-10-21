@@ -1,3 +1,11 @@
+var UIColors = (function(){
+    var content = {
+        loss: "#FF3232",
+        profit: "#2EA44F"
+    };
+    return content;
+})();
+
 var budgetController = (function() {
     var x = 20;
     var add = function(a){
