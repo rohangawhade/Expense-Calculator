@@ -71,13 +71,27 @@
     }
     #profit-collapse{
         color: #2EA44F;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 600;
+        text-decoration-line: none;
     }
     #loss-collapse{
         color: #FF3232;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 600;
+        text-decoration-line: none;
+    }
+    .card-body:nth-child(even){
+        background-color: #EEF0F1;
+        color: #2c2c3b;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-body:nth-child(odd){
+        background-color: #bac2c5;
+        color: #2E362B;
+        font-size: 20px;
+        font-weight: 700;
     }
 }
 @media only screen and (min-width: 576px){
